@@ -1,1 +1,18 @@
-![alt text](https://onlinegdb.com/ByKo-4DFP)
+#include <iostream>
+using namespace std;
+// Function Overloading example
+
+
+void print(int i) {
+cout << " Here is int " << i << endl;
+}
+void print(double f) {
+cout << " Here is float " << f << endl;
+}
+void print(string word ) {
+cout << " Here is string " << word<< endl;
+}
+int main() {
+print(10);
+print(10.10);
+print("ten");
