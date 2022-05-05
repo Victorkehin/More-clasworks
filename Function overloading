@@ -16,3 +16,4 @@ int main() {
 print(10);
 print(10.10);
 print("ten");
+}
